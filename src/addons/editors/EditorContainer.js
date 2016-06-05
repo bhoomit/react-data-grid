@@ -148,7 +148,7 @@ const EditorContainer = React.createClass({
   },
 
   getEditor(): Editor {
-    return this.editor;
+    return this.editor.getWrappedInstance();
   },
 
   getInputNode(): HTMLInputElement {
